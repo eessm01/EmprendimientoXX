@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+
+/* header */
+.header {
+    background: rgba(255, 255, 255, .3);
+    position: fixed;
+    height: 70px;
+    width: 100%; 
+    top: 0;
+    left: auto;
+    right: auto;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    width: 200px;
+    height: 90%;
+}
+.header__logo img { 
+    height: 60px;
+    margin-left: 1em;
+}
+.header__nav {
+    width: 500px;
+    height: 90%;
+}
+.header__nav nav {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header__nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+.header__nav ul li a {
+    font-size: 1.5em;
+    padding: 0 1em;
+    color: orange;
+    text-decoration: none;
+    transition: .5s;
+  }
+  .header__nav ul li:hover a{
+    text-decoration: underline;
+}
+
+/* main */
+.main {
+    width: 100vw;
+    height: 100%;
+    min-height: 300px;
+    /* border: 1px solid red; */
+}
+.main__search {
+    height: 500px;
+    background-image: url("../images/moms.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__search input {
+    border: 5px solid orange;
+    border-radius: 50px;
+    width: 400px;
+    height: 50px;
+    background-color: rgba(255,255,255,.3);
+    background-image: url('../images/search.png');
+    background-repeat: no-repeat;
+    background-position: left 30px center;
+    outline: none;
+    color: white;
+    font-style: 20px;
+    padding: 5px 5px 5px 70px;
+}
+
+.main__biographies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-gap: 5px;
+    margin: 1em;
+    justify-content: center;
+    grid-auto-flow: dense;    /*para quitar los espacios*/
+}
+
+.main__biographies-item {
+    height: 300px;
+    background-color: orange;
+    overflow: hidden;
+    object-fit: contain; 
+}
+.main__container {
+    display: flex;
+    margin-top: 80px;
+}
+.container__profile, .container_products  {
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+.container__profile {
+    display: flex;
+}
+.container__profile--biography {
+    margin: 1em;
+} 
+.container_products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap: 2px;
+    margin: 0;
+    justify-content: center;
+    grid-auto-flow: dense; 
+}
+.product-item {
+    height: 250px;
+    background-color: orange;
+    overflow: hidden;
+    object-fit: contain; 
+}
+
+
+/* footer */
+.footer {
+    width: 100vw;
+    height: 100px;
+}
+
+.footer ul { 
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer li { 
+    padding: 1em;
+}
