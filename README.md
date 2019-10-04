@@ -1,6 +1,15 @@
 # entrepreneursXX
 Análisis de casos de uso, funcionalidad y páginas demo para el proyecto: Escuela de Javascript - E-commerce
 
+Avance: 
+Se tienen las siguientes propuestas para el home
+1. https://eessm01.github.io/EmprendimientoXX/pages/home.html
+2. https://eessm01.github.io/EmprendimientoXX/Propuestas/prop1.html
+3. https://eessm01.github.io/EmprendimientoXX/Propuestas/prop2.html
+
+Y la siguiente para el profile de la emprendedora
+1. https://eessm01.github.io/EmprendimientoXX/pages/profile_mom.html
+
 ### Propósito general del proyecto
 Para este proyecto tu y tu equipo deben desarrollar un E-commerce.
 
